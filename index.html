@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FRank's shop</title>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">About us</a>
+      <a href="#news" class="link">home</a>
+      <a href="#about" class="link">product</a>
+      <ul class="drop-menu">
+        <li><a href="#mai"> FOR MEN</a></li>
+        <li><a href="#">FOR LADIES</a></li>
+      </ul>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction() ">
+        <i class="fa fa-bars" style="color: #fff"></i>
+      </a>
+    </div>
+    <h1 class="mai">FRANK'S SHOP</h1>
+    <p class="mai">Classic and brand new fashion product</p>
+    <div class="contents">
+      <p class="paragraph">
+        Our company is still skyrocketing with a lots of big company names from
+        the lace to the suit, not only that but with amazing <br />cloth for
+        your lady. we appreciate your visit make sure <br />you don't leave
+        without any bag.
+      </p>
+    </div>
+    <h2 class="mai">OUR SERVICE</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="img/gentle.jpeg" alt="" />
+        <div class="card-content">
+          <h3>MEN</h3>
+          <p>
+            Classic cloth of men. We are the only who corporate with big brands
+            all over the world
+          </p>
+          <a href="#" class="bn"> read more</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/women.jpeg" alt="" />
+        <div class="card-content">
+          <h3>LADIES</h3>
+          <p>
+            Designers From overseas have supplied they brands to make it easier
+            for you to get them from our shop
+          </p>
+          <a href="#" class="bn"> read more</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/delivery.jpeg" alt="" class="image" />
+        <div class="card-content">
+          <h3>Delivery</h3>
+          <p>
+            Designers From overseas have supplied they brands to make it easier
+            for you to get them from our shop
+          </p>
+          <a href="#" class="bn"> read more</a>
+        </div>
+      </div>
+    </div>
+    <h1 class="mai">MEN</h1>
+    <div class="card-container">
+      <div class="card">
+        <img src="img/polo.jpeg" alt="" />
+        <div class="card-content">
+          <h3>polo</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          </p>
+          <a href="" class="bn"> read more</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/cardi.jpeg" alt="" />
+        <div class="card-content">
+          <h3>Pierre cardi</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          </p>
+          <a href="" class="bn"> read more</a>
+        </div>
+      </div>
+      <div class="card">
+        <p class="orders">place your order</p>
+        <form action="process.php" method="post">
+          <label for="name">NAME</label><br />
+          <input
+            type="text"
+            name="names"
+            id="names"
+            placeholder="your names"
+          /><br />
+          <label for="phone">PHONE</label><br />
+          <input type="number" name="phone" id="phone" required /><br />
+          <label for="phone">MAIL</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="your email@gmail.com"
+            required
+          /><br />
+          <label for="select">OPTION</label>
+          <select name="choice" id="choice">
+            <option value="MEN">MEN</option>
+            <option value="LADIES">LADIES</option>
+            <option value="BOTH">BOTH</option></select
+          ><br />
+          <textarea name="summary" id="summary"></textarea><br />
+          <input type="submit" value="send" name="send" />
+        </form>
+      </div>
+    </div>
+    <h1 class="mai">LADIES</h1>
+    <div class="card-container ladies">
+      <div class="card">
+        <img src="img/channe;.jpeg" alt="" />
+        <div class="card-content">
+          <h3>CHANNEL</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          </p>
+          <a href="" class="bn"> read more</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/shwala.jpeg" alt="" />
+        <div class="card-content">
+          <h3>SHWALA</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          </p>
+          <a href="" class="bn"> read more</a>
+        </div>
+      </div>
+      <div class="card">
+        <p class="orders">place your order</p>
+        <form action="process.php" method="post">
+          <label for="name">NAME</label><br />
+          <input
+            type="text"
+            name="names"
+            id="names"
+            placeholder="your names"
+          /><br />
+          <label for="phone">PHONE</label><br />
+          <input type="number" name="phone" id="phone" required /><br />
+          <label for="phone">MAIL</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="your email@gmail.com"
+            required
+          /><br />
+          <label for="select">OPTION</label>
+          <select name="choice" id="choice">
+            <option value="izina">MEN</option>
+            <option value="yawe">LADIES</option>
+            <option value="yawe">BOTH</option></select
+          ><br />
+          <textarea name="summary" id="summary"></textarea><br />
+          <input type="submit" value="send" name="send" />
+        </form>
+      </div>
+    </div>
+    <h1 class="mai">order yours</h1>
+    <div class="card-container">
+      <div class="card">
+        <form action="process.php" method="post">
+          <label for="name">NAME</label><br />
+          <input
+            type="text"
+            name="names"
+            id="names"
+            placeholder="your names"
+          /><br />
+          <label for="phone">PHONE</label><br />
+          <input type="number" name="phone" id="phone" required /><br />
+          <label for="phone">MAIL</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="your email@gmail.com"
+            required
+          /><br />
+          <label for="select">OPTION</label>
+          <select name="choice" id="choice">
+            <option value="izina">MEN</option>
+            <option value="yawe">LADIES</option>
+            <option value="yawe">BOTH</option></select
+          ><br />
+          <textarea name="summary" id="summary"></textarea><br />
+          <input type="submit" value="send" name="send" />
+        </form>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <footer class="footer">NGOMITUJE &COPY; SAMUEL 2024 26771</footer>
+  </body>
+</html>
